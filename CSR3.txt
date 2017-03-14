@@ -1,0 +1,36 @@
+CSCFA Specification Reference Division 
+[
+    "cscfa-csr@division.cscfa.fr",
+    "cscfa-contact@cscfa.fr"
+]
+
+Specification - Data Transfer Object
+
+Abstract
+
+    This document specify the main feature of the Data Transfer Object.
+    
+Table of Contents
+    1. Implementation
+    2. Terminology
+    3. Definition
+    4. Dto Structure
+
+1. Implementation
+    This CSR implement the CSR-1
+
+2. Terminology
+
+    The Chain Of Responsibility will be called DTO (i.e. Data Transfer Object).
+
+3. Definition
+
+    A DTO is an object that allow to encapsulate the transfer of data between object. It enhance by this way the
+reusability of the code and the parameters access.
+
+4. DTO Structure
+
+    The DTO MUST implement ArrayAccess and Iterator interfaces.
+    The DTO MUST provide method to set and get arguments. This methods MAY be called 'setAttribute' and 'getAttribute'.
+    The DTO MUST provide method to set and get arguments as array. This methods MAY be called 'setAttributes' and
+'getAttributes'.
