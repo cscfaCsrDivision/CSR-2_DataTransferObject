@@ -12,10 +12,11 @@ Abstract
     
 Table of Contents
     1. Implementation
-    2.
+    2. EXTENDED BY
     3. Terminology
     4. Definition
-    5. Dto Structure
+    5. DTO Structure
+    6. DTO Implementation
 
 1. Implementation
     This CSR implement the CSR-1
@@ -38,3 +39,7 @@ reusability of the code and the parameters access.
     The DTO MUST provide method to set and get arguments. This methods MAY be called 'setAttribute' and 'getAttribute'.
     The DTO MUST provide method to set and get arguments as array. This methods MAY be called 'setAttributes' and
 'getAttributes'.
+
+6. DTO Implementation
+
+    The DTO implementation SHOULD be abble to use the DTO object properties and the stored attributes as same. 
