@@ -12,23 +12,27 @@ Abstract
     
 Table of Contents
     1. Implementation
-    2. Terminology
-    3. Definition
-    4. Dto Structure
+    2.
+    3. Terminology
+    4. Definition
+    5. Dto Structure
 
 1. Implementation
     This CSR implement the CSR-1
 
-2. Terminology
+2. EXTENDED BY
+    This CSR is extended by the CSR-4
 
-    The Chain Of Responsibility will be called DTO (i.e. Data Transfer Object).
+3. Terminology
 
-3. Definition
+    The Data transfer objects will be called DTO (i.e. Data Transfer Object).
+
+4. Definition
 
     A DTO is an object that allow to encapsulate the transfer of data between object. It enhance by this way the
 reusability of the code and the parameters access.
 
-4. DTO Structure
+5. DTO Structure
 
     The DTO MUST implement ArrayAccess and Iterator interfaces.
     The DTO MUST provide method to set and get arguments. This methods MAY be called 'setAttribute' and 'getAttribute'.
